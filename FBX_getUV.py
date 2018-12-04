@@ -14,10 +14,14 @@ importer.Import(scene)
 importer.Destroy()
 
 root = scene.GetRootNode()
+print root.GetChildCount()
+for i in range(root.GetChildCount()):
+    print root.GetChild(i)
+
 child = root.GetChild(0)
 print child.GetName()  # chest
 mesh = child.GetNodeAttribute()
-print mesh
+
 polyCount = mesh.GetPolygonCount()
 print polyCount  # 6
 layerCount = mesh.GetLayerCount()
@@ -53,3 +57,15 @@ for z in range(layerCount):
     #same result
     checkUVs = [j for i in uv_values for j in i if (j > 1.0 or j < 0.0)]
     print checkUVs
+
+
+def get_all_nodes(node, currentpath=[]):
+    currentpath.append(node.GetName())
+    print "Path: %s" % currentpath
+    for i in range(0, node.GetChildCount()):
+        get_all_nodes(node.GetChild(i), currentpath)
+    currentpath.pop()
+
+
+print get_all_nodes(root)
+
