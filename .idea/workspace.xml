@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="924b9ba0-4320-4c13-bb76-577da4ae16e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FBX_getUV.py" beforeDir="false" afterPath="$PROJECT_DIR$/FBX_getUV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbx_tutorials/.vs/fbx_tutorials/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbx_tutorials/fbx_tutorials.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbx_tutorials/fbx_tutorials/FBX_TextureChecker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbx_tutorials/fbx_tutorials/fbx_tutorials.pyproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbx_tutorials/fbx_tutorials/sample_model/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbx_tutorials/fbx_tutorials/sample_model/cubeMan.fbm/cubeMan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbx_tutorials/fbx_tutorials/sample_model/cubeMan.fbm/hat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbx_tutorials/fbx_tutorials/sample_model/cubeMan.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbx_tutorials/fbx_tutorials/sample_model/fbxTextureChecker-p1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fbx_tutorials/fbx_tutorials/sample_model/fbxTextureChecker-p2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_model_2/.mayaSwatches/hat.png_hcm.swatch" beforeDir="false" afterPath="$PROJECT_DIR$/sample_model_2/.mayaSwatches/hat.png_hcm.swatch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample_model_2/cubeMan_UV.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/sample_model_2/cubeMan_UV.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_model_2/cubeMan_noFbm.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/sample_model_2/cubeMan_noFbm.fbx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FBX_getUV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="102" column="46" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+            <state relative-caret-position="353">
+              <caret line="44" selection-start-line="44" selection-end-line="46" selection-end-column="43" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -262,7 +249,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37254903" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24509804" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,8 +294,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FBX_getUV.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="21" />
+          <line>38</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -396,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FBX_getUV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="102" column="46" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+        <state relative-caret-position="353">
+          <caret line="44" selection-start-line="44" selection-end-line="46" selection-end-column="43" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
