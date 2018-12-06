@@ -2,6 +2,8 @@ import fbx
 import sys
 
 filePath = r'E:\GoogleDrive\Dev\Code\fbx_tutorials\sample_model_2\cubeMan_UV.fbx'
+filePath = r'Y:\DVS_3D\PROJECTS\2018_Projects\09_SIBUR\Development\Models\data\PE_Extrusion.fbx'
+filePath = 'C:/Users/mmiroshnichenko/Desktop/test.fbx'
 
 manager = fbx.FbxManager.Create()
 importer = fbx.FbxImporter.Create(manager, 'fbxFileImporter')
@@ -37,7 +39,7 @@ def checkUV01(node=None):
     if node:
         checkUVs = [j for i in uv_values for j in i if (j > 1.0 or j < 0.0)]
         if len(checkUVs) > 0:
-            print checkUVs
+            print "UVs outside 0..1 at: %s" % node.GetName()
 
 
 def get_all_nodes(node=None):
